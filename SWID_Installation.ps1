@@ -83,7 +83,7 @@ Write-Host "Selected stream: $stream" -ForegroundColor Magenta
 $atscip = "130.141.172.24"
 
 #Get System ID - Needs to be changed based on Hostname (DB Access required)
-$systemId = "514"
+$systemId = "SYSTEM_ID_OF_HOST"
 
 
 # Set how many latest builds to check
