@@ -19,7 +19,7 @@ $site = "bangalore"
 
 # Get the hostname - Alter to integrate to dashboard
 #$hostname = Read-Host "Enter hostname (e.g., MRBANWS219): "
-$hostname = "MRBANWS219"
+$hostname = "HOSTNAME_FOR_INSTALLATION"
 Write-Host "Running for host: $hostname" -ForegroundColor Cyan
 
 Write-Output "Fetching current SWID"
